@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export const Backend = () => {
@@ -11,31 +12,40 @@ export const Backend = () => {
     <>
       <div>
         <span className="text technology">— </span>
-        <span className="text yes">Node.JS</span>
+        <Link href="https://youtu.be/243pQXC5Ebs" className="text no">
+          Node.JS
+        </Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <span className="text yes">NestJS</span>
+        <Link href="https://youtu.be/j2-GqaeSueA" className="text no">
+          NestJS
+        </Link>
         <span className="text technology"> / </span>
-        <span className="text yes">Express</span>
+        <Link
+          href="https://youtube.com/playlist?list=PLcvhF2Wqh7DP4tZ851CauQ8GqgqlCocjk"
+          className="text yes"
+        >
+          Express
+        </Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <span className="text yes">PostgreSQL</span>
+        <Link href="https://youtube.com/playlist?list=PLW-WSOmS5ONLUtq3dac8000Q5cXnoPbMT" className="text no">PostgreSQL</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <span className="text yes">RESTApi</span>
+        <Link href="https://youtu.be/v7zq1DntN_Y" className="text yes">RESTApi</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <span className="text yes">JWT</span>
+        <Link href="https://youtu.be/7iuwfKOcvkE" className="text no">JWT</Link>
         <span className="text technology"> / </span>
-        <span className="text yes">PassportJS</span>
+        <Link href="https://www.youtube.com/live/LDnwNtWIq_4?feature=share" className="text no">PassportJS</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <span className="text yes">WebSocket</span>
+        <Link href="https://youtu.be/18E5B1AJ5mM" className="text no">WebSocket</Link>
       </div>
     </>
   );

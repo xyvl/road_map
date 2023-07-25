@@ -10,19 +10,19 @@ export const OthersSkills = () => {
     <>
       <div>
         <span className="text technology">— </span>
-        <Link href="https://youtu.be/O00FTZDxD0o" className="text yes">Git</Link>
+        <Link target="_blank" href="https://youtu.be/O00FTZDxD0o" className="text yes">Git</Link>
         <span className="text technology"> / </span>
-        <Link href="https://github.com" className="text yes">GitHub</Link>
+        <Link target="_blank" href="https://github.com" className="text yes">GitHub</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <Link href="https://youtu.be/TxZwqVTaCmA" className="text no">SOLID</Link>
+        <Link target="_blank" href="https://youtu.be/TxZwqVTaCmA" className="text no">SOLID</Link>
         <span className="text technology"> / </span>
-        <Link href="https://youtu.be/-6DWwR_R4Xk" className="text yes">ООП</Link>
+        <Link target="_blank" href="https://youtu.be/-6DWwR_R4Xk" className="text yes">ООП</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <Link href="https://youtu.be/94fHz4w65PY" className="text yes">JSON</Link>
+        <Link target="_blank" href="https://youtu.be/94fHz4w65PY" className="text yes">JSON</Link>
       </div>
     </>
   );

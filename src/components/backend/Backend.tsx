@@ -12,17 +12,17 @@ export const Backend = () => {
     <>
       <div>
         <span className="text technology">— </span>
-        <Link href="https://youtu.be/243pQXC5Ebs" className="text no">
+        <Link target="_blank" href="https://youtu.be/243pQXC5Ebs" className="text no">
           Node.JS
         </Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <Link href="https://youtu.be/j2-GqaeSueA" className="text no">
+        <Link target="_blank" href="https://youtu.be/j2-GqaeSueA" className="text no">
           NestJS
         </Link>
         <span className="text technology"> / </span>
-        <Link
+        <Link target="_blank"
           href="https://youtube.com/playlist?list=PLcvhF2Wqh7DP4tZ851CauQ8GqgqlCocjk"
           className="text yes"
         >
@@ -31,21 +31,21 @@ export const Backend = () => {
       </div>
       <div>
         <span className="text technology">— </span>
-        <Link href="https://youtube.com/playlist?list=PLW-WSOmS5ONLUtq3dac8000Q5cXnoPbMT" className="text no">PostgreSQL</Link>
+        <Link target="_blank" href="https://youtube.com/playlist?list=PLW-WSOmS5ONLUtq3dac8000Q5cXnoPbMT" className="text no">PostgreSQL</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <Link href="https://youtu.be/v7zq1DntN_Y" className="text yes">RESTApi</Link>
+        <Link target="_blank" href="https://youtu.be/v7zq1DntN_Y" className="text yes">RESTApi</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <Link href="https://youtu.be/7iuwfKOcvkE" className="text no">JWT</Link>
+        <Link target="_blank" href="https://youtu.be/7iuwfKOcvkE" className="text no">JWT</Link>
         <span className="text technology"> / </span>
-        <Link href="https://www.youtube.com/live/LDnwNtWIq_4?feature=share" className="text no">PassportJS</Link>
+        <Link target="_blank" href="https://www.youtube.com/live/LDnwNtWIq_4?feature=share" className="text no">PassportJS</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <Link href="https://youtu.be/18E5B1AJ5mM" className="text no">WebSocket</Link>
+        <Link target="_blank" href="https://youtu.be/18E5B1AJ5mM" className="text no">WebSocket</Link>
       </div>
     </>
   );

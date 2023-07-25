@@ -1,0 +1,30 @@
+:root {
+	--main: black;
+	--color-skills: blue;
+	--color-text: white;
+	--color-no-skills: rgb(129, 129, 129);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--main);
+	font-family: sans-serif;
+}
+
+.technology {
+	color: var(--color-text);
+}
+.text{
+	font-size: 1.5em;
+}
+.yes{
+	color: var(--color-skills);
+}
+.no{
+	color: var(--color-no-skills);
+}

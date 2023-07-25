@@ -10,21 +10,45 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+a{
+	text-decoration: none;
+	font-size: 1.5em;
+}
+a:hover{
+	color: var(--color-skills);
+}
+span{
+	font-size: 1.5em;
+}
 body {
 	background: var(--main);
 	font-family: sans-serif;
 }
 
+.block {
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+.block:first-child {
+	margin-top: 0;
+}
+
+.block_skills {
+	display: grid;
+	margin-top: 20px;
+	grid-gap: 8px;
+}
+
 .technology {
 	color: var(--color-text);
 }
-.text{
-	font-size: 1.5em;
+
+
+.yes {
+	color: var(--color-text);
 }
-.yes{
-	color: var(--color-skills);
-}
-.no{
+
+.no {
 	color: var(--color-no-skills);
 }

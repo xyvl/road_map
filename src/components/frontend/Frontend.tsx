@@ -71,7 +71,6 @@ export const Frontend = () => {
         <span className="text yes">Code Splitting</span>
 				<span className="text technology"> / </span>
         <span className="text yes">Lazy Loading</span>
-				<span className="text technology"> / </span>
       </div>
 			<div>
         <span className="text technology">— </span>

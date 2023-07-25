@@ -2,30 +2,40 @@ import { Backend } from "@/components/backend/Backend";
 import { Blockchain } from "@/components/blockchain/Blockchain";
 import { Frontend } from "@/components/frontend/Frontend";
 import { Mobile } from "@/components/mobile/Mobile";
-import { OthersSkills } from "@/components/othersSkills/OthersSkills"
+import { OthersSkills } from "@/components/othersSkills/OthersSkills";
 
 export default function Home() {
   return (
     <div className="wrapper">
-      <div>
+      <div className="block">
         <h1 className="technology">⛓ Blockchain:</h1>
-        <Blockchain />
+        <div className="block_skills">
+          <Blockchain />
+        </div>
       </div>
-      <div>
+      <div className="block">
         <h1 className="technology">🌝 Frontend:</h1>
-        <Frontend />
+        <div className="block_skills">
+          <Frontend />
+        </div>
       </div>
-      <div>
+      <div className="block">
         <h1 className="technology">🌚 Backend:</h1>
-        <Backend />
+        <div className="block_skills">
+          <Backend />
+        </div>
       </div>
-      <div>
+      <div className="block">
         <h1 className="technology">📱 Mobile:</h1>
-        <Mobile />
+        <div className="block_skills">
+          <Mobile />
+        </div>
       </div>
-      <div>
+      <div className="block">
         <h1 className="technology">✍ Другие скиллы:</h1>
-        <OthersSkills/>
+        <div className="block_skills">
+          <OthersSkills />
+        </div>
       </div>
     </div>
   );

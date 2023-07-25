@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React from "react";
 
 export const OthersSkills = () => {
@@ -9,19 +10,19 @@ export const OthersSkills = () => {
     <>
       <div>
         <span className="text technology">— </span>
-        <span className="text yes">Git</span>
+        <Link href="https://youtu.be/O00FTZDxD0o" className="text yes">Git</Link>
         <span className="text technology"> / </span>
-        <span className="text yes">GitHub</span>
+        <Link href="https://github.com" className="text yes">GitHub</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <span className="text yes">SOLID</span>
+        <Link href="https://youtu.be/TxZwqVTaCmA" className="text no">SOLID</Link>
         <span className="text technology"> / </span>
-        <span className="text yes">ООП</span>
+        <Link href="https://youtu.be/-6DWwR_R4Xk" className="text yes">ООП</Link>
       </div>
       <div>
         <span className="text technology">— </span>
-        <span className="text yes">JSON</span>
+        <Link href="https://youtu.be/94fHz4w65PY" className="text yes">JSON</Link>
       </div>
     </>
   );

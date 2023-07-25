@@ -10,6 +10,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body {
+	background: var(--main);
+	font-family: sans-serif;
+	margin: 30px 0;
+}
 a{
 	text-decoration: none;
 	font-size: 1.5em;
@@ -19,10 +24,6 @@ a:hover{
 }
 span{
 	font-size: 1.5em;
-}
-body {
-	background: var(--main);
-	font-family: sans-serif;
 }
 
 .block {

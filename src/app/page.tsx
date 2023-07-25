@@ -1,6 +1,7 @@
 import { Backend } from "@/components/backend/Backend"
 import { Blockchain } from "@/components/blockchain/Blockchain"
 import { Frontend } from "@/components/frontend/Frontend"
+import { Mobile } from "@/components/mobile/Mobile"
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       </div>
       <div>
         <h1 className="technology">📱 Mobile:</h1>
-
+<Mobile/>
       </div>
       <div>
         <h1 className="technology">✍ Другие скиллы:</h1>

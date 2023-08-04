@@ -39,11 +39,11 @@ export const Frontend = () => {
           Redux Toolkit
         </Link>
         <span className="technology"> / </span>
-        <Link target="_blank" href="https://youtu.be/z-u0tDuKS2o" className="no">
+        <Link target="_blank" href="https://youtu.be/z-u0tDuKS2o" className="yes">
           Redux
         </Link>
         <span className="technology"> / </span>
-        <Link target="_blank" href="https://youtu.be/Rq-sIE2ceEU" className="no">
+        <Link target="_blank" href="https://youtu.be/Rq-sIE2ceEU" className="yes">
           MobX
         </Link>
         <span className="technology"> / </span>
